@@ -23,7 +23,9 @@ maintenance = { status = "actively-developed" }
 [dependencies]
 serde = "1.0"
 erased-serde = "0.3"
-metatype = "0.2"
+# metatype = "0.2"
+metatype = { version = "0.2", git = "https://github.com/fgadaleta/metatype" }
+
 relative = "0.2"
 serde_closure = { version = "0.3", optional = true }
 
