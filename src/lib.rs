@@ -101,7 +101,6 @@
 
 #![doc(html_root_url = "https://docs.rs/serde_traitobject/0.2.7")]
 #![feature(
-	arbitrary_self_types,
 	arbitrary_self_types_pointers,
 	coerce_unsized,
 	fn_traits,
